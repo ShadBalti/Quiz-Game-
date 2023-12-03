@@ -8,6 +8,47 @@
     "question": "Which programming language is this quiz written in?",
     "answers": ["Java", "Python", "JavaScript", "C++"],
     "correctAnswer": "JavaScript"
-  }
-  
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "answers": ["Earth", "Jupiter", "Mars", "Saturn"],
+    "correctAnswer": "Jupiter"
+  },
+  {
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "answers": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
+    "correctAnswer": "William Shakespeare"
+  },
+  {
+    "question": "What is the capital of Japan?",
+    "answers": ["Seoul", "Beijing", "Tokyo", "Bangkok"],
+    "correctAnswer": "Tokyo"
+  },
+  // Add more questions as needed
+  {
+    "question": "Which year was the Declaration of Independence signed?",
+    "answers": ["1776", "1789", "1800", "1750"],
+    "correctAnswer": "1776"
+  },
+  {
+    "question": "In which year did the first manned moon landing occur?",
+    "answers": ["1969", "1972", "1955", "1981"],
+    "correctAnswer": "1969"
+  },
+  {
+    "question": "What is the capital of Australia?",
+    "answers": ["Wellington", "Canberra", "Sydney", "Melbourne"],
+    "correctAnswer": "Canberra"
+  },
+  {
+    "question": "Who is the author of 'To Kill a Mockingbird'?",
+    "answers": ["Harper Lee", "J.K. Rowling", "George Orwell", "Ernest Hemingway"],
+    "correctAnswer": "Harper Lee"
+  },
+  {
+    "question": "Which continent is known as the 'Land of the Rising Sun'?",
+    "answers": ["Asia", "Europe", "Africa", "Australia"],
+    "correctAnswer": "Asia"
+  },
+  // ... Add more questions
 ]

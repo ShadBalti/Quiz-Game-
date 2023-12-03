@@ -1,0 +1,13 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "answers": ["Berlin", "Madrid", "Paris", "Rome"],
+    "correctAnswer": "Paris"
+  },
+  {
+    "question": "Which programming language is this quiz written in?",
+    "answers": ["Java", "Python", "JavaScript", "C++"],
+    "correctAnswer": "JavaScript"
+  }
+  
+]

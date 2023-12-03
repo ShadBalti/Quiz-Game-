@@ -1,4 +1,4 @@
-/* Add your custom styles here */
+/* Updated styles for your quiz game */
 
 body {
   font-family: 'Arial', sans-serif;
@@ -21,6 +21,12 @@ body {
 
 .question {
   margin-bottom: 15px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.question.active {
+  opacity: 1;
 }
 
 label {
@@ -28,7 +34,8 @@ label {
   margin-bottom: 10px;
 }
 
-#submit-btn {
+#submit-btn,
+#review-btn {
   display: block;
   margin: 0 auto;
 }
@@ -39,24 +46,39 @@ label {
   text-align: center;
 }
 
+.progress {
+  height: 20px;
+}
+
+.progress-bar {
+  background-color: #007bff; /* Bootstrap primary color */
+}
+
+audio {
+  display: none; /* Hide audio controls */
+}
+
+#timer {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Styles for highlighting correct and incorrect answers during review */
+.question.correct {
+  background-color: #d4edda; /* Bootstrap success background color */
+}
+
+.question.incorrect {
+  background-color: #f8d7da; /* Bootstrap danger background color */
+}
+
 /* Style radio buttons */
 input[type="radio"] {
   margin-right: 5px;
 }
 
-/* Highlight correct and incorrect answers */
+/* Highlight selected radio button label */
 .question input[type="radio"]:checked+label {
-  font-weight: bold;
-}
-
-.question input[type="radio"]:checked+label::before {
-  content: '\2714\00a0'; /* Checkmark symbol */
-  color: green;
-  font-weight: bold;
-}
-
-.question input[type="radio"]:not(:checked)+label::before {
-  content: '\2718\00a0'; /* X symbol */
-  color: red;
-  font-weight: bold;
+  background-color: #e2e3e5; /* Bootstrap secondary background color */
 }

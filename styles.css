@@ -1,0 +1,62 @@
+/* Add your custom styles here */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+#quiz-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.question {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#submit-btn {
+  display: block;
+  margin: 0 auto;
+}
+
+#result-container {
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Style radio buttons */
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Highlight correct and incorrect answers */
+.question input[type="radio"]:checked+label {
+  font-weight: bold;
+}
+
+.question input[type="radio"]:checked+label::before {
+  content: '\2714\00a0'; /* Checkmark symbol */
+  color: green;
+  font-weight: bold;
+}
+
+.question input[type="radio"]:not(:checked)+label::before {
+  content: '\2718\00a0'; /* X symbol */
+  color: red;
+  font-weight: bold;
+}
